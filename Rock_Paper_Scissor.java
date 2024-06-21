@@ -253,7 +253,7 @@ public class Rock_Paper_Scissor extends JFrame {
 				pScore++;
 
 		}  else if (computer.equalsIgnoreCase("Paper") && player.equalsIgnoreCase("Rock")
-				|| computer.equalsIgnoreCase("Paper") && player.equalsIgnoreCase("Rock") 
+				|| computer.equalsIgnoreCase("Scissor") && player.equalsIgnoreCase("Paper") 
 				|| computer.equalsIgnoreCase("Rock") && player.equalsIgnoreCase("Scissor")) {
 			
 				res = "You Loose!";
